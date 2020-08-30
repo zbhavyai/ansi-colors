@@ -5,10 +5,7 @@ This is a very simple and silly shell script to print what ANSI colors you would
 
 ### Usage
 
-1. Dowload the script
-    ```
-    ansi-colors.sh
-    ```
+1. Dowload the script `ansi-colors.sh`
 
 1. Allow execution permission to the downloaded file
     ```
