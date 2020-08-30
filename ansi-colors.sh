@@ -13,7 +13,9 @@ do
 
 	COLOR="\e[${N}m"
 	RESET="\e[0m"
-	printf "${COLOR} %03d ${RESET}" ${N}
+
+	printf "${COLOR}%7s${RESET}" $COLOR
+	#printf "${COLOR} %s ${RESET}" ${N}
 
 	if [[ count -eq 0 ]]
 	then
