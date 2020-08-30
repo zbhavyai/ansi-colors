@@ -17,7 +17,7 @@ This is a very simple and silly shell script to print what ANSI colors you would
     ./ansi-colors.sh
     ```
 
-1. To use specific color, wrap the text ANSI sequence. For instance, to use cyan
+1. To use a color in text output, wrap the text with the specific ANSI sequence. For instance, to use cyan
     ```shell
     printf "\e[36mHello World\e[0m\n"
     ```
