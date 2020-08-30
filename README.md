@@ -4,16 +4,27 @@ This is a very simple and silly shell script to print what ANSI colors you would
 
 ### Usage
 
-1. Dowload the script<br/>
- ```ansi-colors.sh```
+1. Dowload the script
+ ```
+ansi-colors.sh
+```
+<br/>
 
-2. Allow execution permission to the downloaded file<br/>
-```chmod +x ansi-colors.sh```
+1. Allow execution permission to the downloaded file
+```
+chmod +x ansi-colors.sh
+```
+<br/>
 
-3. Run the file and see the colored output with ANSI code<br/>
-```./ansi-colors.sh``` 
+1. Run the file and see the colored output with ANSI code
+```
+./ansi-colors.sh
+```
+<br/>
 
-4. To use specific color, wrap the text ANSI sequence. For instance, to use cyan<br/>
-```printf "\e[36mHello World\e[0m\n"```
+1. To use specific color, wrap the text ANSI sequence. For instance, to use cyan
+```shell
+printf "\e[36mHello World\e[0m\n"
+```
 
 
